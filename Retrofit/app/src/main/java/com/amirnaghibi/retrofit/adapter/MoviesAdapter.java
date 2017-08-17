@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.amirnaghibi.retrofit.R;
+import com.amirnaghibi.retrofit.activity.DetailActivity;
 import com.amirnaghibi.retrofit.model.Movie;
 
 import java.util.List;
