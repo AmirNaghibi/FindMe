@@ -10,4 +10,5 @@
     <string name="func1">func1</string>
     <string name="func2">func2</string>
     <string name="func3">func3</string>
+    <string name="instructions">First enter inputs. Then Select operation.</string>
 </resources>
