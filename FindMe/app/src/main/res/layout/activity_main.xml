@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amirnaghibi.findme.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/worldmap"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/lattitude"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color1"/>
+
+
+
+    <TextView
+        android:id="@+id/user_lattitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/longitude"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color1"/>
+
+
+
+    <TextView
+        android:id="@+id/user_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="@string/find_me"/>
+
+
+</LinearLayout>
