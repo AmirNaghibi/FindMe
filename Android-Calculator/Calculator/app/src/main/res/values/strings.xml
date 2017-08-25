@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="first_input">First Input</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="x">x</string>
+    <string name="divide">/</string>
+    <string name="second_input">Second Input</string>
+    <string name="extra_functions">Extra functions:</string>
+    <string name="func1">func1</string>
+    <string name="func2">func2</string>
+    <string name="func3">func3</string>
+</resources>
